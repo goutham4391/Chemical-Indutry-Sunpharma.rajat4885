@@ -1,0 +1,21 @@
+.no-match-found{margin-bottom: 20px;background-color: rgba(242,159,78,0.06)!important;-webkit-box-shadow: inset 2px 0 0 0 rgb(242 159 78 / 53%)!important;padding:20px;}
+.no-match-found p{font-size:14px;font-weight: bold; margin: 0px 0;padding-bottom: 10px;}
+.no-match-found a {color: #f7941e;}
+.entry-title{font-size: 26px;color: #f7941e;font-weight: bold;}
+.details-of-equity{display: flex;flex-flow: row wrap; /*margin-bottom: 25px;*/}
+.details-of-equity .tuts-txt {width: 50%;padding-right: 20px;margin-bottom: 25px;}
+.details-of-equity .tuts-btn{margin:25px 0;width: 100%;}
+.details-of-equity input.text{border: 1px solid #bbb;}
+.details-of-equity .button{width:auto;color: #FFFFFF;border-width: 0px;border-color: #f7941e;font-size: 18px!important;text-transform: uppercase!important;
+ background-color: #f7941e;padding: 0.3em 1em !important;box-shadow: unset;line-height: 1.7em;}
+ .IEPF-table table{border: 1px solid #000;}
+.IEPF-table th,.IEPF-table td {border: 1px solid #000;    padding: 10px!important; color: #000 !important;}
+@media screen and (max-width:767px){
+	.no-match-found{font-size:14px;}
+	.details-of-equity {margin-bottom: 15px;}
+	.details-of-equity .tuts-txt{width: 100%;padding-right: 0px;margin-bottom: 15px;}
+	.details-of-equity .button{font-size: 16px!important;}
+	.details-of-equity .tuts-btn{margin: 15px 0;}
+	.entry-title{font-size:24px;line-height: 30px;margin-bottom: 10px !important;}
+	.IEPF-table{width:100%;overflow:auto;}
+}
